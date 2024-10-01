@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding: 20px 20px;
+}
+.shava{
+    height: 300px;
+    width: fit-content;
+}
+
+.buttons{
+    display: flex;
+    margin: 0 auto;
+}
+.button{
+    display: block;
+    background-color: lightblue;
+    width: min-content;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: fit-content;
+}
+.button > a{
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    margin: 10px 20px 10px 20px;
+}
+
+.wrap{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+.wrap > img{
+    display: block;
+}
+.wrap > h1{
+    margin: 0 auto;
+}

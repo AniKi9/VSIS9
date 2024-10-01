@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:="http://www.w3.org/1999/xhtml"
+                xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Шаверма</title>
+    <link th:rel="stylesheet" th:href="@{/styles/style.css}">
+</head>
+<body>
+    <div class="wrap">
+        <h1>Добро пожаловать</h1>
+        <img th:class="shava" th:src="@{/images/shawerma.png}"/>
+        <div th:class="buttons">
+            <div class="button"><a th:href="@{/payment}">Купить</a></div>
+            <div class="button"><a th:href="@{/design}">Собрать</a></div>
+        </div>
+    </div>
+</body>
+</html>
